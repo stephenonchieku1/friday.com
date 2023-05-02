@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "build": "react-scripts build", 
+    "build-css": "tailwindcss build src/input.css -o public/input.css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -25,7 +25,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.2%", 
       "not dead",
       "not op_mini all"
     ],
