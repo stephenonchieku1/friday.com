@@ -1,12 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function navbar() {
+function navbar() {
   return (
-    <View>
-      <Text>navbar</Text>
-    </View>
+    <div>navbar</div>
   )
 }
 
-const styles = StyleSheet.create({})
+export default navbar
