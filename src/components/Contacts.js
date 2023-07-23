@@ -15,23 +15,23 @@ function Contacts() {
                     <MdOutlineEmail/>
                     <h4>Email</h4>
                     <h5>stephenonchieku1@gmail.com</h5>
-                    <a href='mailto:stephenonchieku1@gmail.com'>Send message</a>
+                    <a href='mailto:onchiekustephen901@gmail.com' target='_blank'>Send message</a>
                    </article>
                    <article className='contact_option'>
                     <RiMessengerLine/>
                     <h4>Messenger</h4>
                     <h5>stephenonchieku1@gmail.com</h5>
-                    <a href='https://m.me/stephen.onchieku.39'>Send message</a>
+                    <a href='https://m.me/stephen.onchieku.39' target='_blank'>Send message</a>
                    </article>
                    <article className='contact_option'>
                     <BsWhatsapp/>
                     <h4>Whatsapp</h4>
                     <h5>+25497913428</h5>
-                    <a href='https://api.whatsapp.com/send?phone+25497913428'>Send message</a>
+                    <a href='https://api.whatsapp.com/send?phone=+254799137198' target='_blank'>Send message</a>
                    </article>
                 </div>
              
-                <form action="2"></form>
+                <form action=""></form>
              </div>
     </section>
 
@@ -39,3 +39,8 @@ function Contacts() {
 }
 
 export default Contacts
+//
+//<a href='https://api.whatsapp.com/send?
+
+
+                    
