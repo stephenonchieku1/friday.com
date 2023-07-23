@@ -10,6 +10,7 @@ function Contacts() {
              <div className='container contact_container'>
                 <div className='contact_options'>
                    <article className='contact_option'>
+                    <MdOutlineEmail/>
                     <h4>Email</h4>
                     <h5>stephenonchieku1@gmail.com</h5>
                     <a href='mailto:stephenonchieku1@gmail.com'>Send message</a>
