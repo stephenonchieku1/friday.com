@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from "react-icons/md"
 import {RiMessengerLine} from 'react-icons/ri'
-
+import {BsWhatsapp} from 'react-icons/bs'
 
 function Contacts() {
   return (
@@ -18,16 +18,16 @@ function Contacts() {
                     <a href='mailto:stephenonchieku1@gmail.com'>Send message</a>
                    </article>
                    <article className='contact_option'>
-                    <MdOutl/>
+                    <RiMessengerLine/>
                     <h4>Messenger</h4>
                     <h5>stephenonchieku1@gmail.com</h5>
                     <a href='https://m.me/stephen.onchieku.39'>Send message</a>
                    </article>
                    <article className='contact_option'>
-                    <MdOutlineEmail/>
+                    <BsWhatsapp/>
                     <h4>Whatsapp</h4>
-                    <h5>stephenonchieku1@gmail.com</h5>
-                    <a href='mailto:stephenonchieku1@gmail.com'>Send message</a>
+                    <h5>+25497913428</h5>
+                    <a href='https://api.whatsapp.com/send?phone+25497913428'>Send message</a>
                    </article>
                 </div>
              
